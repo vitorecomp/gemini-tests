@@ -1,0 +1,13 @@
+{
+  "name": "aistudio-x-vertexai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Latency benchmark: Gemini via AI Studio vs Vertex AI (global endpoint)",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.9.0"
+  }
+}

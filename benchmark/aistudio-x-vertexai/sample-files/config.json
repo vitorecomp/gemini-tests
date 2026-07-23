@@ -1,0 +1,15 @@
+{
+  "service": "order-processor",
+  "version": "2.3.1",
+  "features": {
+    "asyncFulfillment": true,
+    "fraudChecks": true,
+    "legacyCsvExport": false
+  },
+  "limits": {
+    "maxItemsPerOrder": 50,
+    "maxRetries": 3,
+    "requestTimeoutMs": 15000
+  },
+  "regions": ["us-east1", "europe-west1", "asia-southeast1"]
+}
